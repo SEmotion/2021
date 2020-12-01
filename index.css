@@ -1,0 +1,220 @@
+body {
+    padding: 2em;
+    background: #eee;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125em;
+    color: #000;
+}
+
+main {
+    margin: auto;
+    padding: 1em;
+    max-width: 1280px;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(127, 127, 127, 0.5);
+    overflow: hidden;
+}
+tr.header {
+  background-color: lightgray;
+}
+header {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header div.subtitle {
+    font-size: 1.5em;
+    color: #26b;
+}
+header div.when-and-where {
+    margin: 0.5em 0;
+}
+
+nav {
+    border-bottom: 1px solid #eee;
+}
+nav > ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav > ul > li {
+    position: relative;
+    padding: 0.5em;
+    font-size: 1.25em;
+}
+nav > ul li.selected {
+    color: #26b;
+}
+nav a, nav a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+nav > ul > li > ul {
+    display: none;
+}
+nav > ul > li:hover > ul, nav > ul > li > ul:hover {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    margin-top: 0.5em;
+    border: 1px solid #eee;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.75);
+    list-style: none;
+    color: #000;
+}
+nav > ul > li > ul > li {
+    padding: 0.5em;
+}
+
+div.banner {
+    display: flex;
+    position: relative;
+    margin: 0.5em;
+    flex-flow: column;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 308px;
+}
+div.banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.banner div.attribution {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 8px;
+    padding: 0.25em;
+    font-size: 0.75em;
+    background: #000;
+    color: #fff;
+    opacity: 0.75;
+}
+div.banner div.attribution a, div.banner div.attribution a:visited {
+    color: #9bd;
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+article > section {
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    padding: 1em;
+}
+article > section > section {
+    margin: auto;
+}
+
+#payload {
+    flex: 1.5 1 auto;
+    width: 512px;
+}
+
+#social-media {
+    max-width: 512px;
+}
+#social-media iframe {
+    max-height: 786px;
+}
+a.twitter-timeline {
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    padding-top: 0.5em;
+    text-align: center;
+    color: #26b;
+}
+
+div.photos {
+    text-align: center;
+    display: flex;
+}
+
+div.photo {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1ex;
+}
+figure {
+    margin: 0.25em;
+    text-align: center;
+}
+figure img {
+    box-shadow: 0 0 4px rgba(127, 127, 127, 0.5);
+    width: 144px;
+}
+div.fullsize-photo figure img {
+    width: 100%;
+}
+
+table {
+    margin: auto;
+}
+table, col {
+    width: auto !important;
+}
+th {
+    text-align: center !important;
+}
+th, td {
+    padding: 0.5em;
+    vertical-align: middle;
+}
+td em {
+    font-size: 75%;
+}
+
+td {
+  text-align: left !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-weight: normal;
+    color: #26b;
+}
+
+p {
+    text-align: justify;
+}
+li p {
+    text-align: unset;
+}
+#schedule~table td {
+    text-align: left !important;
+}
+
+span.unbreakable {
+    white-space: pre;
+}
+
+a, a:visited {
+    color: #26b;
+}
+
+.even {
+  background-color: lightgray;
+}
