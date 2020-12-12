@@ -2,6 +2,8 @@
 
 Website for the Workshop on Emotion Awareness in Software Engineering 2021
 
+URL: https://semotion.github.io/2021/
+
 # Prerequisites
 
 Before building the site from Markdown, make sure that you have installed
