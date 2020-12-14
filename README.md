@@ -20,5 +20,5 @@ At the command line, `cd` into the repository's root directory and run GNU make
 # Deploying
 
 If you have access to year-specific repository, the makefile can deploy the
-website automatically.  Simply run `make deploy`.
-Don't forget to enable GitHub Pages from the settings of the new repository. 
+website automatically.  Simply run `make deploy`.  
+Don't forget to enable _GitHub Pages_ from the settings of the new repository. 
